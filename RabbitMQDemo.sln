@@ -25,6 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQDemo.Topic.Producer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQDemo.Topic.Consumer", "RabbitMQDemo.Topic.Consumer\RabbitMQDemo.Topic.Consumer.csproj", "{558A5CE0-B68B-421E-9F93-A66E56D81110}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQTest.Messages", "EasyNetQTest.Messages\EasyNetQTest.Messages.csproj", "{EAA21083-0601-47B4-8F80-502F30A23EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQTest.Publisher", "EasyNetQTest.Publisher\EasyNetQTest.Publisher.csproj", "{36FAEFA8-95D7-4D9B-A555-11D77C0B3F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQTest.Subscriber", "EasyNetQTest.Subscriber\EasyNetQTest.Subscriber.csproj", "{D2F855BE-CE7A-4697-8980-52569FD0E82A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +81,18 @@ Global
 		{558A5CE0-B68B-421E-9F93-A66E56D81110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{558A5CE0-B68B-421E-9F93-A66E56D81110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{558A5CE0-B68B-421E-9F93-A66E56D81110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA21083-0601-47B4-8F80-502F30A23EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA21083-0601-47B4-8F80-502F30A23EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA21083-0601-47B4-8F80-502F30A23EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA21083-0601-47B4-8F80-502F30A23EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FAEFA8-95D7-4D9B-A555-11D77C0B3F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FAEFA8-95D7-4D9B-A555-11D77C0B3F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FAEFA8-95D7-4D9B-A555-11D77C0B3F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FAEFA8-95D7-4D9B-A555-11D77C0B3F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F855BE-CE7A-4697-8980-52569FD0E82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F855BE-CE7A-4697-8980-52569FD0E82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F855BE-CE7A-4697-8980-52569FD0E82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F855BE-CE7A-4697-8980-52569FD0E82A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
