@@ -39,7 +39,7 @@ namespace RabbitMQDemo.HelloWorld.Producer
 
                     //发送消息
                     channel.BasicPublish(exchange: "",
-                        routingKey: "hello",//???
+                        routingKey: "hello",
                         basicProperties: null,
                         body: body);
 

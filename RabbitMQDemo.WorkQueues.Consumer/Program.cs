@@ -36,7 +36,7 @@ namespace RabbitMQDemo.WorkQueues.Consumer
                         arguments: null);
 
                     //公平调度，同一时刻，不要发送超过1条消息给一个消费者
-                    channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+                    channel.BasicQos(prefetchSize: 0, prefetchCount: 5, global: false);
 
                     //接收(消费)消息
                     var consumer = new EventingBasicConsumer(channel);
